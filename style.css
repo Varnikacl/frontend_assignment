@@ -1,0 +1,86 @@
+/* Example basic style */
+body {
+  font-family: sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url('https://source.unsplash.com/1600x900/?technology,web');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #45a049;
+}
+.languages {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.languages h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card p {
+  color: #666;
+  font-size: 16px;
+}
